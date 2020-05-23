@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/looplab/fsm.svg?branch=master)](https://travis-ci.com/looplab/fsm)
 [![Coverage Status](https://img.shields.io/coveralls/looplab/fsm.svg)](https://coveralls.io/r/looplab/fsm)
-[![GoDoc](https://godoc.org/github.com/looplab/fsm?status.svg)](https://godoc.org/github.com/looplab/fsm)
+[![GoDoc](https://godoc.org/github.com/LuisLaas/fsm?status.svg)](https://godoc.org/github.com/LuisLaas/fsm)
 [![Go Report Card](https://goreportcard.com/badge/looplab/fsm)](https://goreportcard.com/report/looplab/fsm)
 
 # FSM for Go
@@ -13,7 +13,7 @@ It is heavily based on two FSM implementations:
 
 - Fysom for Python, https://github.com/oxplot/fysom (forked at https://github.com/mriehl/fysom)
 
-For API docs and examples see http://godoc.org/github.com/looplab/fsm
+For API docs and examples see http://godoc.org/github.com/LuisLaas/fsm
 
 # Basic Example
 
@@ -24,7 +24,7 @@ package main
 
 import (
     "fmt"
-    "github.com/looplab/fsm"
+    "github.com/LuisLaas/fsm"
 )
 
 func main() {
@@ -64,7 +64,7 @@ package main
 
 import (
     "fmt"
-    "github.com/looplab/fsm"
+    "github.com/LuisLaas/fsm"
 )
 
 type Door struct {
