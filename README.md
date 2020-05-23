@@ -3,6 +3,8 @@
 [![GoDoc](https://godoc.org/github.com/LuisLaas/fsm?status.svg)](https://godoc.org/github.com/LuisLaas/fsm)
 [![Go Report Card](https://goreportcard.com/badge/looplab/fsm)](https://goreportcard.com/report/looplab/fsm)
 
+In this fork of FSM the NoTransition Error is not thrown when the source state and the destination state of a transition are the same.
+
 # FSM for Go
 
 FSM is a finite state machine for Go.
